@@ -1,0 +1,33 @@
+*{
+	margin: auto;
+	padding: auto;
+}
+
+.topbar {
+	width: 100%;
+	height: 2.5em;
+	background-color: #2C0322;
+	color: #FFFFFF;
+}
+h3 {
+	padding: 1em 0em;
+}
+
+.topbar li {
+	padding: 0.5em 0em 0em 1em;
+}
+
+.carousel {
+	margin-top: -1.4em;
+}
+
+
+
+
+
+
+
+
+
+
+
