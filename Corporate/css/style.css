@@ -398,6 +398,60 @@
 }
 
 
+/*==== About us Page ====*/
+
+.about-title {
+	background-image: url('images/computer.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	margin-top: -1.4em;
+}
+.about-title h2 {
+	padding-bottom: 0.5em;
+	font-weight: bold;
+}
+.about-content {
+	padding: 1em 0em;
+}
+.about-content h3 {
+	font-weight: bold;
+}
+.about-content p {
+	text-align: justify;
+	padding: 1em 0em;
+}
+.about-content img:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.directors {
+	padding: 2em 0em;
+}
+.directors h3 {
+	text-align: center;
+	padding-bottom: 1em;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.getquote {
+	width: 80%;
+	height: 100%;
+	text-align: center;
+	padding-top: 4em;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+@media(max-width: 720px) {
+	.getquote {
+		padding-top: 3em;
+		text-align: center;
+		width: 100%;
+	}
+}
 
 
 
