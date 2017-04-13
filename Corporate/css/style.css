@@ -66,7 +66,7 @@
 /*==== Topbar ====*/
 
 .topbar {
-	padding: 0.5em 0em 0em 1em;	
+	padding: 0.5em 0em 0em 0em;	
 	background-color: #1a1a1a;
 }
 .cta-wrapper ul li i {
