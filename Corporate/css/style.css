@@ -75,7 +75,7 @@
     height: 24px;
     line-height: 30px;
     background: transparent;
-    color: orange;
+    color: #01AAC1;
     text-align: center;
     border-radius: 3px;
     margin-right: 5px;
@@ -96,14 +96,14 @@
     width: 30px;
     height: 30px;
     line-height: 32px;
-    background: #20467A;
+    background: #1a1a1a;
     text-align: center;
     color: #fff;
     border-radius: 3px;
 }
 .social-wrapper ul li a:hover {
-    background: #fff;
-    color: orange;
+    background: #1a1a1a;
+    color: #01AAC1;
 }
 
 @media screen and (max-width: 767px) {
