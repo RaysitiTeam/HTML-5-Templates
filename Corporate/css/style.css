@@ -568,6 +568,56 @@
 	color: #000;
 }
 
+/*==== Service Page End ====*/
+
+
+/*==== Contact Page Start*/
+
+.contact-title {
+	background-image: url('images/contact-banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	margin-top: -1.4em;
+	min-height: 100px;
+}
+.contact-title h2 {
+	padding-top: 0.5em;
+	font-weight: bold;
+	color: #fff;
+}
+.breadcrumb {
+	background-color: transparent !important;
+}
+.contact-content {
+
+}
+.info {
+	margin-top: 2em;
+	border: 1px solid gray;
+	padding-top: 1.5em;
+}
+.info i {
+	color: #01AAC1;
+	line-height: 20px;
+}
+.info span {
+	color: #1a1a1a;
+	font-weight: bold;
+	padding-left: 0.5em;
+}
+.contact-form {
+	padding-top: 3em;
+}
+.contact-form h4 {
+	font-weight: bold;
+}
+.contact-form form {
+	padding: 1em 0em;
+}
+.map {
+	padding-top: 1em;
+}
 
 
 
