@@ -527,46 +527,14 @@
 .breadcrumb {
 	background-color: transparent !important;
 }
+
 .service-content {
 
 }
-.serv {
-	padding-bottom: 2em;
-}
 .service-content img {
-	border-radius: 5px 5px 0px 0px;
+	padding-top: 2em;
 }
-.service-content img:hover {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
-}
-.service-content h4 {
-	padding: 0.5em 0em;
-	font-weight: bold;
-}
-.service-content p {
-	text-align: justify;
-}
-.service-content i {
-	color: #01AAC1;
-}
-.service-content a {
-	color: #01AAC1;
-	text-decoration: none;
-}
-.service-content a:hover {
-	color: #CC3363;
-	text-decoration: none;
-}
-.service-content a:focus {
-	color: #CC3363;
-	text-decoration: none;
-}
-.breadcrumb i {
-	color: #000;
-}
-.breadcrumb a {
-	color: #000;
-}
+
 
 
 
