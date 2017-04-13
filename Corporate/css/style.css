@@ -121,6 +121,7 @@
 
 .navbar {
 	background-color: #fff !important;
+	font-weight: bold;
 }
 
 @media(max-width: 720px) {
@@ -181,11 +182,20 @@
 .services h3 {
 	padding-bottom: 1em;
 }
+.services a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.services a:focus {
+	color: #fff;
+	text-decoration: none;
+}
 .service-card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
 	width: 100%;
 }
+
 .service-card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
 }
@@ -667,3 +677,76 @@
 	color: #CC3363;
 	text-decoration: none;
 }
+
+/*==== News Page End ====*/
+
+
+/*==== Service Detail Page ====*/
+
+.detail-content h4 {
+	font-weight: bold;
+	padding-top: 1em;
+}
+.detail-content p {
+	text-align: justify;
+}
+.service-topic ul {
+	list-style: none;
+}
+.service-topic li {
+	border-left: 2px solid #DCDCDC;
+	padding: 0.5em 0em;
+}
+.service-topic li:nth-child(1) {
+	border-left-color: #CC3363;
+}
+.service-topic li:nth-child(1)>a {
+	color: #CC3363;
+}
+.service-topic a {
+	padding-left: 1em;
+	color: #1a1a1a;
+	font-weight: bold;
+}
+.service-topic a:hover {
+	color: #CC3363;
+	text-decoration: none;
+}
+.service-topic a:focus {
+	color: #CC3363;
+	text-decoration: none;
+}
+.service-topic li:hover {
+	border-left-color: #CC3363;
+}
+.service-topic li:focus {
+	border-left-color: #CC3363;
+}
+.quote {
+	margin-top: 5em;
+	background-color: #DCDCDC;
+	border-radius: 5px;
+	padding: 0em 2em 2em 2em;
+}
+.quote h4 {
+	text-align: justify;
+	padding-left: 2em;
+}
+.quote i {
+	top: 2em;
+	position: relative;
+	color: #01AAC1;
+}
+.quote p {
+	text-align: center;
+}
+
+@media(max-width: 720px) {
+	.quote {
+		margin-top: 1em;
+	}
+}
+
+/*==== Service Detail End ====*/
+
+
