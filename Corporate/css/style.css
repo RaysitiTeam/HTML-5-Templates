@@ -665,6 +665,26 @@
 	text-decoration: underline;
 	padding-top: 2em;
 }
+.news i {
+	color: #01AAC1;
+}
+.news a {
+	left: -1.5em;
+	position: relative;
+	font-size: 16px;
+}
+.news a:hover {
+	color: #CC3363;
+	text-decoration: none;
+}
+.news a:focus {
+	color: #CC3363;
+	text-decoration: none;
+}
+.news span {
+	color: #000;
+	padding-left: 0.5em;
+}
 .categories a {
 	color: #1a1a1a;
 	font-weight: bold;
