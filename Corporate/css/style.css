@@ -145,26 +145,36 @@
     margin-top: -1.4em;
 }
 
+.carousel-caption {
+    padding-bottom: 3em;
+}
+
 .carousel-caption h2 {
-    float: left;
-    padding-bottom: 5em;
+    text-align: left;
+    padding-bottom: 0.5em;
+    text-decoration: underline;
 }
 
-..carousel-caption h3 {
-    float: left !important;
-    position: relative; 
-
+.carousel-caption p {
+    text-align: left;
+    max-width: 400px;
+    padding-bottom: 1em;
 }
 
-.carousel-caption a {
-    float: left;
+.carousel-caption button {
+    text-align: left;
+    margin-bottom: 8em;
 }
 
 @media(max-width: 539px) {
     .carousel-caption h2 {
         float: left;
         font-size: 16px;
-        padding-bottom: 1em;
+        padding-bottom: 1px;
+    }
+    .carousel-caption button {
+        margin-bottom: 1px;
+        padding: 2px;
     }
 }
 
@@ -172,7 +182,10 @@
     .carousel-caption h2 {
         float: left;
         font-size: 22px;
-        padding-bottom: 3em;
+        padding-bottom: 0.5em;
+    }
+    .carousel-caption button {
+        margin-bottom: 1em;
     }
 }
 
@@ -180,15 +193,22 @@
     .carousel-caption h2 {
         float: left;
         font-size: 28px;
-        padding-bottom: 5em;
+        padding-bottom: 0.5em;
+    }
+
+    .carousel-caption button {
+        margin-bottom: 1em;
     }
 }
 
 @media(min-width: 721px) and (max-width: 992px) {
     .carousel-caption h2 {
         float: left;
-        font-size: 24px;
-        padding-bottom: 4em;
+        font-size: 20px;
+        padding-bottom: 0.5em;
+    }
+    .carousel-caption button {
+        margin-bottom: 0em;
     }
 }
 
@@ -929,15 +949,14 @@
 /*==== Service Detail End ====*/
 
 
-
 /*==== Selection Color ====*/
 
-::-moz-selection { 
+::-moz-selection {
     color: #fff;
     background: #CC3363;
 }
 
 ::selection {
-    color: #fff; 
+    color: #fff;
     background: #CC3363;
 }
