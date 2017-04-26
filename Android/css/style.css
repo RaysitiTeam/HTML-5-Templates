@@ -1,0 +1,84 @@
+* {
+    /*font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
+    font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+
+body {
+    background-image: url('images/background-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.brand {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 8em;
+    letter-spacing: 0.1em;
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.form {
+    padding-top: 2em;
+}
+
+.form-control {
+    padding: 0.5em;
+    background-color: #1c0f1e;
+    border: none;
+    color: #9c8da0;
+}
+
+.form .fa {
+    color: #9c8da0;
+    padding-top: 0.1em;
+    text-align: center;
+}
+
+.glyphicon {
+    color: #9c8da0;
+    padding-top: 0.2em;
+    text-align: center;
+    font-size: 26px;
+}
+
+.form a {
+    text-align: left;
+    color: #555;
+    padding-bottom: 0.7em;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.sign-in-with a {
+    font-size: 11px;
+}
+
+.login-button button,
+.login-button button:hover,
+.login-button button:focus {
+    background-color: #35102a;
+    border: 1px solid #35102a;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #CC3363;
+}
+
+::selection {
+    color: #fff;
+    background: #CC3363;
+}
