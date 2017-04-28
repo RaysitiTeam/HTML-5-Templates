@@ -1,6 +1,7 @@
 /*==== PMAW Technologies ====*/
-/*==== Author: Raysiti Media (http://raysiti.com/) ====*/
 
+
+/*==== Author: Raysiti Media (http://raysiti.com/) ====*/
 
 *,
 *:after,
@@ -247,13 +248,13 @@ th {
 }
 
 ::-moz-selection {
-    background: #800080;
+    background: rgba(97, 61, 165, 1);
     color: #FFFF00;
     text-shadow: none;
 }
 
 ::selection {
-    background: #800080;
+    background: rgba(97, 61, 165, 1);
     color: #FFFF00;
     text-shadow: none;
 }
@@ -311,7 +312,7 @@ textarea {
 }
 
 .loaderContainer {
-    background: #800080;
+    background: rgba(97, 61, 165, 1);
     transition: all ease-in-out 1000ms;
     -moz-transition: all ease-in-out 1000ms;
     -ms-transition: all ease-in-out 1000ms;
@@ -346,7 +347,7 @@ textarea {
     font-size: 25px;
     font-family: arial, sans serif;
     font-weight: 700;
-    color: #FFFF00;
+    color: #FBE01E;
     text-shadow: 0 .04em rgba(0, 0, 0, .5)
 }
 
@@ -500,8 +501,13 @@ textarea {
     width: 100%;
     margin: 0 auto;
 }
+
+
 /*--------------------------------------------------------------------------------------------------*/
+
+
 /*==== Topbar ====*/
+
 .top-patch {
     width: 100%;
     background: #f3f1ef;
@@ -528,7 +534,8 @@ textarea {
 }
 
 .top-patch ul a:hover {
-    color: #800080;
+    color: rgba(97, 61, 165, 1);
+    ;
     font-weight: bold;
 }
 
@@ -546,8 +553,8 @@ textarea {
 }
 
 .top-patch ul li.bookbtn a {
-    background: #FFFF00;
-    color: #800080;
+    background: rgba(97, 61, 165, 1);
+    color: #FBE01E;
     font-size: 16px;
     padding: 0px 56px 0px 15px;
     font-weight: 600;
@@ -556,11 +563,11 @@ textarea {
 }
 
 .top-patch ul li.bookbtn a:hover {
-    color: #fff;
+    color: rgba(97, 61, 165, 1);
 }
 
 .top-patch ul li.bookbtn a:hover .arw {
-    color: #fff;
+    color: rgba(97, 61, 165, 1);
 }
 
 .top-patch ul li.bookbtn a:after {
@@ -568,7 +575,7 @@ textarea {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #800080;
+    background: #FBE01E;
     top: 0px;
     right: 0px;
     width: 0px;
@@ -585,10 +592,10 @@ textarea {
     right: 0px;
     top: 0px;
     height: 100%;
-    background: #800080;
+    background: #FBE01E;
     line-height: 40px;
     padding: 0 7px 0 5px;
-    color: #FFFF00;
+    color: rgba(97, 61, 165, 1);
 }
 
 .top-patch ul li.bookbtn a .arw i {
@@ -604,7 +611,7 @@ textarea {
     top: 0px;
     left: -7px;
     content: "";
-    background: #800080;
+    background: #FBE01E;
     transform: skewX(-15deg);
     -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
@@ -619,9 +626,12 @@ textarea {
 .top-patch ul li.bookbtn a:hover .arw:before{ background:#192b52; }
 */
 
+
 /*==== /Topbar ====*/
 
+
 /*---------------------------------------------------------------------------------------------------*/
+
 
 /*==== Navigation Bar ====*/
 
@@ -637,7 +647,12 @@ textarea {
 
 .header .logo {
     float: left;
-    padding: 10px 0;
+    padding: 0px 0;
+}
+
+.header .logo img {
+    height: 80px !important;
+    width: 170px !important;
 }
 
 .header .top-right {
@@ -671,7 +686,7 @@ textarea {
 
 .header .menu ul li a.active,
 .header .menu ul li a:hover {
-    color: #800080;
+    color: rgba(97, 61, 165, 1);
     font-weight: bold;
 }
 
@@ -679,14 +694,72 @@ textarea {
     display: none;
 }
 
+
 /*==== /Navigation Bar ====*/
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*==== Dropdown ====*/
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.8em 1em !important;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.dropdown-content i {
+    padding-right: 0.2em;
+}
+
+.dropdown-content a:hover {
+    background-color: #FBE01E;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*==== /Dropdown ====*/
+
+
+/*-----------------------------------------------------------------------------------------*/
 
 
 /*==== Slider Banner ====*/
 
 .banner-wrap {
     width: 100%;
-    background: #192b52;
+    background: #FBE01E;
 }
 
 .swiper-container {
@@ -698,7 +771,7 @@ textarea {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #192b52;
+    background: rgba(97, 61, 165, 1);
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -727,7 +800,7 @@ textarea {
 .banner-wrap .swiper-slide .textbox .txt {
     width: 100%;
     max-width: 600px;
-    border-left: 6px solid #FFFF00;
+    border-left: 6px solid #FBE01E;
     padding-left: 20px;
 }
 
@@ -783,15 +856,18 @@ textarea {
     right: 0px !important
 }
 
+
 /*==== /Slider Banner ====*/
 
+
 /*--------------------------------------------------------------------------------------------------*/
+
 
 /*==== Service List ====*/
 
 .service-list {
-    background: #FFFF00;
-    color: #800080;
+    background: rgba(97, 61, 165, 1);
+    color: #FBE01E;
     font-weight: 400px;
 }
 
@@ -806,9 +882,9 @@ textarea {
     vertical-align: middle;
     position: relative;
     height: 44px;
-    color: #800080;
+    color: #FBE01E;
     text-decoration: none;
-    border-left: 2px solid #800080;
+    border-left: 2px solid #FBE01E;
 }
 
 .service-list .tbl .td:first-child {
@@ -822,12 +898,12 @@ textarea {
     top: 0px;
     width: 0px;
     height: 100%;
-    background: #800080;
+    background: #FBE01E;
     transition: all ease-in-out 500ms;
 }
 
 .service-list .tbl .td:hover {
-    color: #FFFF00;
+    color: rgba(97, 61, 165, 1);
 }
 
 .service-list .tbl .td:hover:after {
@@ -847,7 +923,7 @@ textarea {
     left: 0px;
     top: 0px;
     height: 100%;
-    background: #800080;
+    background: #FBE01E;
     height: 100%;
     padding: 9px 0 10px 10px;
     z-index: 2;
@@ -917,7 +993,7 @@ textarea {
     top: 0px;
     right: -10px;
     content: "";
-    background: #800080;
+    background: #FBE01E;
     transform: skewX(-15deg);
     -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
@@ -926,15 +1002,18 @@ textarea {
     z-index: 1;
 }
 
+
 /*==== /Service List ====*/
 
+
 /*----------------------------------------------------------------------------------------------*/
+
 
 /*==== Our Expertise ====*/
 
 .cnt-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .cnt-section .title {
@@ -989,8 +1068,8 @@ textarea {
 .cnt-section h2.beforeafterline .txt:after {
     height: 8px;
     width: 200px;
-    border-top: 1px solid #FFFF00;
-    border-bottom: 1px solid #FFFF00;
+    border-top: 1px solid #FBE01E;
+    border-bottom: 1px solid #FBE01E;
     background: none;
     position: absolute;
     left: 100%;
@@ -1002,8 +1081,8 @@ textarea {
 .cnt-section h2.beforeafterline .txt:before {
     height: 8px;
     width: 200px;
-    border-top: 1px solid #FFFF00;
-    border-bottom: 1px solid #FFFF00;
+    border-top: 1px solid #FBE01E;
+    border-bottom: 1px solid #FBE01E;
     background: none;
     position: absolute;
     right: 100%;
@@ -1045,16 +1124,20 @@ textarea {
     top: 4px;
     left: 0px;
     font-family: 'FontAwesome';
-    color: #800080;
+    color: rgba(97, 61, 165, 1);
+    ;
 }
 
 .info-section ul li .listitem {
     color: #000000;
 }
 
+
 /*==== /Our Expertise ====*/
 
+
 /*-------------------------------------------------------------------------------------------------*/
+
 
 /*==== Our Services ====*/
 
@@ -1097,8 +1180,8 @@ textarea {
 .service-slider .swiper-button-next,
 .service-slider .swiper-button-prev {
     font-size: 16px;
-    background: #FFFF00;
-    color: #800080;
+    background: #FBE01E;
+    color: rgba(97, 61, 165, 1);
     height: 30px;
     width: 30px;
     margin-top: -15px;
@@ -1118,7 +1201,7 @@ textarea {
     width: 100%;
     height: 100%;
     right: 5px;
-    background: #FFFF00;
+    background: #FBE01E;
     content: "";
     transform: skewX(-10deg);
     -moz-transform: skewX(-10deg);
@@ -1132,7 +1215,7 @@ textarea {
     width: 100%;
     height: 100%;
     left: 5px;
-    background: #FFFF00;
+    background: #FBE01E;
     content: "";
     transform: skewX(-10deg);
     -moz-transform: skewX(-10deg);
@@ -1149,7 +1232,7 @@ textarea {
 
 .service-slider .service-box {
     background: #fff;
-    border: 1px solid #800080;
+    border: 1px solid rgba(97, 61, 165, 1);
     overflow: hidden;
     position: relative;
 }
@@ -1192,8 +1275,8 @@ textarea {
 .service-slider .innerbox .txt a {}
 
 .service-slider .innerbox .txt a {
-    background: #FFFF00;
-    color: #800080;
+    background: rgba(97, 61, 165, 1);
+    color: #FBE01E;
     font-weight: bold;
     font-size: 13px;
     padding: 0px 56px 0px 15px;
@@ -1205,7 +1288,7 @@ textarea {
 }
 
 .service-slider .innerbox .txt a:hover {
-    color: #FFFF00;
+    color: rgba(97, 61, 165, 1);
 }
 
 .service-slider .innerbox .txt a .arw {
@@ -1214,10 +1297,10 @@ textarea {
     right: 0px;
     top: 0px;
     height: 100%;
-    background: #800080;
+    background: #FBE01E;
     line-height: 35px;
     padding: 0 7px 0 5px;
-    color: #FFFF00;
+    color: rgba(97, 61, 165, 1);
 }
 
 .service-slider .innerbox .txt a .arw i {
@@ -1233,7 +1316,7 @@ textarea {
     top: 0px;
     left: -7px;
     content: "";
-    background: #800080;
+    background: #FBE01E;
     transform: skewX(-15deg);
     -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
@@ -1246,7 +1329,7 @@ textarea {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #800080;
+    background: #FBE01E;
     top: 0px;
     right: 0px;
     width: 0px;
@@ -1264,14 +1347,17 @@ textarea {
 
 
 /*
-.service-slider .innerbox .txt a:hover{ background:#fe6b09;}
+.service-slider .innerbox .txt a:hover{ background:rgba(97, 61, 165, 1);;}
 .service-slider .innerbox .txt a:hover .arw{ background:#192b52; }
 .service-slider .innerbox .txt a:hover .arw:before{ background:#192b52; }
 */
 
+
 /*==== /Our Services ====*/
 
+
 /*-------------------------------------------------------------------------------------------------*/
+
 
 /*==== About us ====*/
 
@@ -1286,29 +1372,32 @@ textarea {
 }
 
 .about-txt .abt-box a.readmore-link {
-    color: #FFFF00;
+    color: #FBE01E;
 }
 
 .about-txt a {
-    border: 1px solid #800080;
+    border: 1px solid rgba(97, 61, 165, 1);
     padding: 0.5em;
-    background-color: #800080;
+    background-color: rgba(97, 61, 165, 1);
 }
 
 .about-txt .abt-box a.readmore-link:hover {
-    color: #800080;
-    background-color: #FFFF00;
-    border: 1px solid #FFFF00;
+    color: rgba(97, 61, 165, 1);
+    background-color: #FBE01E;
+    border: 1px solid #FBE01E;
 }
+
 
 /*==== /About us ====*/
 
+
 /*------------------------------------------------------------------------------------------------*/
+
 
 /*==== Testimonial ====*/
 
 .testimonial-cnt {
-    background: #800080;
+    background: rgba(97, 61, 165, 1);
 }
 
 .test-slider .swiper-container {
@@ -1340,7 +1429,7 @@ textarea {
     height: 100%;
     width: 5px;
     content: "";
-    background: #FFFF00;
+    background: #FBE01E;
     transform: skewX(-15deg);
     -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
@@ -1383,20 +1472,20 @@ textarea {
 
 .test-slider .swiper-slide .name span {
     font-size: 16px;
-    color: #FFFF00;
+    color: #FBE01E;
     display: block;
 }
 
 .test-slider .swiper-button-next,
 .test-slider .swiper-button-prev {
-    background: #FFFF00;
+    background: #FBE01E;
     top: auto;
     bottom: 0px;
     height: 40px;
     width: 40px;
     line-height: 38px;
     font-size: 30px;
-    color: #800080;
+    color: rgba(97, 61, 165, 1);
     left: 50% !important;
     right: auto;
     transform: skewX(-15deg);
@@ -1414,22 +1503,67 @@ textarea {
     margin-left: -45px;
 }
 
+
 /*==== /Testimonial ====*/
 
+
 /*----------------------------------------------------------------------------------------------------*/
+
+
+/*==== Our Clients ====*/
+
+li {
+    list-style: none;
+}
+
+.suga-container {
+    background: rgba(97, 61, 165, 1);
+    padding: 0.2em;
+    max-width: 100%;
+    margin: 2em auto;
+}
+
+.suga-slider-wrap {
+    overflow: hidden;
+    margin: 1em;
+}
+
+.suga-slider-group:before,
+.suga-slider-group:after {
+    content: " ";
+    display: table;
+}
+
+.suga-slider-group:after {
+    clear: both;
+}
+
+.suga-slide {
+    float: left;
+    position: relative;
+    margin-left: 0;
+    padding-right: 8px;
+}
+
+
+/*==== /Our Clients ====*/
+
+
+/*----------------------------------------------------------------------------------------------------*/
+
 
 /*==== Contact info ====*/
 
 .orange-patch {
-    background: #FFFF00;
-    color: #800080;
+    background: #FBE01E;
+    color: rgba(97, 61, 165, 1);
     font-size: 18px;
     font-weight: 600;
     line-height: 1.2;
 }
 
 .orange-patch a {
-    color: #800080;
+    color: rgba(97, 61, 165, 1);
 }
 
 .orange-patch ul {
@@ -1440,7 +1574,7 @@ textarea {
 
 .orange-patch li {
     list-style: none;
-    border-left: 1px solid #800080;
+    border-left: 1px solid rgba(97, 61, 165, 1);
     display: table-cell;
     vertical-align: middle;
     padding: 20px 0;
@@ -1456,8 +1590,8 @@ textarea {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: #800080;
-    color: #FFFF00;
+    background: rgba(97, 61, 165, 1);
+    color: #FBE01E;
     font-size: 25px;
     position: relative;
     margin-right: 30px;
@@ -1473,7 +1607,7 @@ textarea {
     width: 50%;
     height: 100%;
     position: absolute;
-    background: #800080;
+    background: rgba(97, 61, 165, 1);
     transform: skewX(-15deg);
     -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
@@ -1490,9 +1624,12 @@ textarea {
     padding-bottom: 4px;
 }
 
+
 /*==== Contact info ====*/
 
+
 /*-----------------------------------------------------------------------------------------------*/
+
 
 /*==== Footer ====*/
 
@@ -1516,8 +1653,8 @@ textarea {
     position: fixed;
     right: 20px;
     bottom: -100px;
-    background: #800080;
-    color: #FFFF00;
+    background: rgba(97, 61, 165, 1);
+    color: #FBE01E;
     padding: 7px 10px;
     transition: all ease-in-out 400ms;
     z-index: 99
@@ -1527,9 +1664,12 @@ textarea {
     bottom: 20px;
 }
 
+
 /*==== /Footer ====*/
 
+
 /*-----------------------------------------------------------------------------------------------*/
+
 
 /*==== About Page ====*/
 
@@ -1600,7 +1740,9 @@ textarea {
 
 /*==== /About Page ====*/
 
+
 /*-----------------------------------------------------------------------------------------------*/
+
 
 /*==== Contact Us Page ====*/
 
@@ -1729,7 +1871,7 @@ textarea {
 }
 
 .form-cnt .form ul li .btn .btntxt {
-    background: #800080;
+    background: rgba(97, 61, 165, 1);
     color: #FFFF00;
     border: none;
     font-size: 16px;
@@ -1743,7 +1885,7 @@ textarea {
 }
 
 .form-cnt .form ul li .btn input {
-    background: #800080;
+    background: rgba(97, 61, 165, 1);
     color: #FFFF00;
     border: none;
     font-size: 16px;
@@ -1814,9 +1956,12 @@ textarea {
     margin-bottom: 10px;
 }
 
+
 /*==== /Contact Us Page ====*/
 
+
 /*----------------------------------------------------------------------------------------------*/
+
 
 /*==== Our Products Page ====*/
 
@@ -1937,9 +2082,12 @@ textarea {
     overflow: auto;
 }
 
+
 /*==== /Our Products Page*/
 
+
 /*----------------------------------------------------------------------------------------------*/
+
 
 /*==== Media Queries ====*/
 
@@ -1989,6 +2137,12 @@ textarea {
 }
 
 @media only screen and (max-width: 1023px) {
+
+    .header .logo img {
+        height: 62px;
+        width: 105px;
+    }
+
     .wrapper {
         padding-top: 110px;
     }
@@ -2093,6 +2247,12 @@ textarea {
 }
 
 @media only screen and (max-width: 767px) {
+
+    .header .logo img {
+        height: 62px;
+        width: 100px;
+    }
+
     .wrapper {
         padding-top: 50px;
     }
@@ -2173,7 +2333,7 @@ textarea {
     .header .menu ul li a {
         font-size: 16px;
         padding: 7px 15px;
-        background: #800080;
+        background: rgba(97, 61, 165, 1);
         color: #FFFF00 !important;
         font-style: normal;
         font-weight: normal;
@@ -2184,7 +2344,7 @@ textarea {
     }
     .close-btn {
         display: block;
-        background: #800080;
+        background: rgba(97, 61, 165, 1);
         position: relative;
         padding: 10px;
     }
@@ -2201,7 +2361,7 @@ textarea {
         position: absolute;
         left: 50%;
         bottom: -15px;
-        border: 5px solid #800080;
+        border: 5px solid rgba(97, 61, 165, 1);
         background: #fff;
         margin-left: -17px;
         text-align: center;
@@ -2214,7 +2374,7 @@ textarea {
         display: block;
         float: right;
         font-size: 25px;
-        color: #800080;
+        color: rgba(97, 61, 165, 1);
         margin: 3px 0 0 0;
         position: relative;
         width: 30px;
@@ -2335,6 +2495,12 @@ textarea {
 }
 
 @media only screen and (max-width: 639px) {
+
+    .header .logo img {
+        height: 62px;
+        width: 95px;
+    }
+
     .orange-patch li {
         display: block;
         width: 100%;

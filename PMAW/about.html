@@ -42,9 +42,6 @@
                 <div class="container">
                     <ul>
                         <li>
-                            <a href="tel:9411447236" class="callnum">&#x260e; 9411447236</a>
-                        </li>
-                        <li>
                             <a href="mailto:info@pmawtechnologies.com"><i class="fa fa-envelope"></i> info@pmawtechnologies.com</a>
                         </li>
                         <li>
@@ -64,7 +61,7 @@
             <!-- Navigation Bar -->
             <div class="container">
                 <div class="logo">
-                    <a href="index.html"><img src="img/logo.png" alt="" title="" height="56" width="275" /></a>
+                    <a href="index.html"><img src="img/logo.png" alt="" title="" height="56" width="125" /></a>
                     <a href="#" class="menubtn"><i class="fa fa-navicon"></i><i class="fa fa-close"></i></a>
                     <div class="clear"></div>
                 </div>
@@ -73,7 +70,16 @@
                         <ul>
                             <li><a href="index.html" class="animsition-link">Home</a></li>
                             <li><a href="about.html" class="animsition-link aboutpage active">About</a></li>
-                            <li><a href="products.html" class="animsition-link servicepage">Products</a></li>
+                            <li class="dropdown">
+                                <a href="products.html" class="animsition-link servicepage dropbtn">Products <i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="welding.html"><i class="fa fa-arrow-circle-o-right"></i> Welding </a>
+                                    <a href="solar-solutions.html"><i class="fa fa-arrow-circle-o-right"></i> Solar Solutions </a>
+                                    <a href="special-metals.html"><i class="fa fa-arrow-circle-o-right"></i> Special Metals </a>
+                                    <a href="stainless-steel-fabrications.html"><i class="fa fa-arrow-circle-o-right"></i> Stainless Steel Fabrications </a>
+                                    <a href="manifolds.html"><i class="fa fa-arrow-circle-o-right"></i> Manifolds </a>
+                                </div>
+                            </li>
                             <li><a href="contact.html" class="animsition-link contactpage">Contact Us</a></li>
                         </ul>
                         <div class="clear"></div>
@@ -120,82 +126,37 @@
         </div>
         <!-- /About Section -->
 
-        <!-- Testimonial -->
+        <!-- Client Logo Slider -->
+
         <div class="fluid-contatiner cnt-section testimonial-cnt">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="title">
                     <h2 class="beforeafterline whitetxt">
-                        <div class="txt"><img src="img/quote-img.png" alt="" title="" height="37" width="43" /></div>
-                        Our <span>Testimonials</span>
+                        Our <span>Clients</span>
                     </h2>
                 </div>
-                <div class="test-slider">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="tbl">
-                                    <div class="td name">
-                                        <span>Customer in Bangalore</span>
-                                    </div>
-                                    <div class="td txt">
-                                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="tbl">
-                                    <div class="td name">
-                                        <span>Customer in Delhi</span>
-                                    </div>
-                                    <div class="td txt">
-                                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="tbl">
-                                    <div class="td name">
-                                        <span>Customer in Bangalore</span>
-                                    </div>
-                                    <div class="td txt">
-                                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="tbl">
-                                    <div class="td name">
-                                        <span>Customer in Delhi</span>
-                                    </div>
-                                    <div class="td txt">
-                                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>
-                        <div class="swiper-button-prev"><i class="fa fa-angle-left"></i></div>
-                    </div>
+                
+                <div id="logos">
+                    <ul>
+                        <li><img src="img/logos/wipro.png" /></li>
+                        <li><img src="img/logos/fanuc.png" /></li>
+                        <li><img src="img/logos/toyota.jpg" /></li>
+                        <li><img src="img/logos/stanzen.png" /></li>
+                        <li><img src="img/logos/aosmith.jpg" /></li>
+                        <li><img src="img/logos/indomim.png" /></li>
+                        <li><img src="img/logos/jbm.jpg" /></li>
+                        <li><img src="img/logos/beml.png" /></li>
+                        <li><img src="img/logos/rasandik.jpg" /></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!-- /Testimonial -->
+        <!-- /Client Logo Slider -->
+
         <!-- Contact info -->
         <div class="orange-patch">
             <div class="container">
                 <ul>
-                    <li>
-                        <div class="tbl">
-                            <div class="td">
-                                <span class="icon"><i class="fa fa-phone"></i></span>
-                            </div>
-                            <div class="td">
-                                <div class="heading">SUPPORT</div>
-                                <a href="tel:9411447236" class="callnum">9411447236</a>
-                            </div>
-                        </div>
-                    </li>
                     <li>
                         <div class="tbl">
                             <div class="td">
@@ -239,6 +200,7 @@
     <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/smoothscroll.min.js"></script>
+    <script src="js/client-slider.js"></script> 
 </body>
 
 </html>
