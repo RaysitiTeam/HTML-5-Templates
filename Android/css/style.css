@@ -3,8 +3,8 @@
     font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 }
 
-body {
-    background-image: url('images/background-1.jpg');
+.body {
+    background-image: url('../images/background-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -82,3 +82,241 @@ p {
     color: #fff;
     background: #CC3363;
 }
+
+/*==== Reset Password ====*/
+
+.reset-password {
+    background-image: url('../images/background-9.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.reset h3 {
+    padding: 2em 0em;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.sent-code {
+    color: #fff;
+    padding: 1em;
+}
+
+.sent-code input[type="text"] {
+    background-color: #fff;
+}
+
+.password {
+    padding-top: 2em;
+}
+
+.password i {
+    color: #555;
+}
+
+.new-password input[type="password"] {
+    background-color: #fff;
+}
+
+.button-submit {
+    text-align: center;
+}
+
+.btn-warning {
+    background-color: #E0A507;
+    color: purple;
+    font-weight: bold;
+}
+
+.password-policy {
+    text-align: center;
+}
+
+.password-policy h5 {
+    color: #E0A507;
+    font-weight: bold;
+}
+
+.password-policy p {
+    font-size: 12px;
+    color: #691957;
+}
+
+
+/*==== Forum ====*/
+
+.forum {
+    background-image: url('../images/background-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.topbar {
+    background-color: #340A2B;
+    padding: 0em 0em;
+    line-height: 0em;
+}
+
+.topbar a {
+    color: #fff;
+    float: left;
+}
+
+.fa-bars {
+    padding-top: 0.3em;
+}
+
+.topbar h5 {
+    color: #E0A507;
+    padding-left: 0.3em;
+    font-weight: bold;
+}
+
+.topbar span {
+    color: #fff;
+}
+
+.topbar p {
+    color: #E0A507;
+    font-size: 8px;
+    padding-left: 0.3em;
+}
+
+.topbar a {
+    text-align: left;
+}
+
+.posts {
+    padding-top: 1em;
+}
+
+.post {
+    padding: 0em 0em;
+}
+
+.post a {
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.post img {
+    background-color: #E0A507;
+    border-radius: 20px;
+}
+
+.post h5 {
+    font-weight: bold;
+    color: #691957;
+}
+
+.post h6>span {
+    font-weight: bold;
+}
+
+.post h6 {
+    position: relative;
+    top: -0.5em;
+}
+
+.post p {
+    font-size: 10px;
+    position: relative;
+    color: #555;
+    top: -1em;
+    text-align: justify;
+}
+
+.reply {
+    padding-right: 0.5em;
+    color: #555;
+}
+
+.replies {
+    color: #555;
+}
+
+.badge {
+    background-color: #E0A507;
+    color: #000;
+}
+
+/*==== Access ====*/
+
+.access {
+    background-image: url('../images/background-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.access-ques {
+    padding-top: 1em;
+}
+
+.access-ques h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    color: #340A2B;
+    font-weight: bold;
+}
+
+.access-ques h4 {
+    text-align: center;
+    color: #691957;
+    font-weight: bold;
+    padding: 1em 0em;
+}
+
+.subscribe h4 {
+    text-align: center;
+    font-style: italic;
+    color: #E0A507;
+    font-weight: bold;
+}
+
+.subscribe h6 {
+    text-align: justify;
+    color: #691957;
+    padding: 0em 2em;
+    font-weight: bold;
+}
+
+.subscribe h6 a {
+    color: #E0A507;
+    text-decoration: underline;
+}
+
+.subscribe-btn {
+    padding: 4em 0em;
+    text-align: center;
+}
+
+.subscribe-btn .btn {
+    background-color: #E0A507;
+    color: #691957;
+}
+
+.subscribe-btn h6 {
+    color: #691957;
+    font-weight: bold;
+}
+
+.notice {
+    padding-top: 8em;
+    text-align: center;
+    color: #691957;
+    font-weight: bold;
+}
+
+
