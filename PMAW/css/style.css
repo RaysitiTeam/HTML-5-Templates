@@ -248,13 +248,13 @@ th {
 }
 
 ::-moz-selection {
-    background: rgba(97, 61, 165, 1);
+    background: #800080;
     color: #FFFF00;
     text-shadow: none;
 }
 
 ::selection {
-    background: rgba(97, 61, 165, 1);
+    background: #800080;
     color: #FFFF00;
     text-shadow: none;
 }
@@ -312,7 +312,7 @@ textarea {
 }
 
 .loaderContainer {
-    background: rgba(97, 61, 165, 1);
+    background: #800080;
     transition: all ease-in-out 1000ms;
     -moz-transition: all ease-in-out 1000ms;
     -ms-transition: all ease-in-out 1000ms;
@@ -347,7 +347,7 @@ textarea {
     font-size: 25px;
     font-family: arial, sans serif;
     font-weight: 700;
-    color: #FBE01E;
+    color: #FFFF00;
     text-shadow: 0 .04em rgba(0, 0, 0, .5)
 }
 
@@ -534,7 +534,7 @@ textarea {
 }
 
 .top-patch ul a:hover {
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
     ;
     font-weight: bold;
 }
@@ -553,8 +553,8 @@ textarea {
 }
 
 .top-patch ul li.bookbtn a {
-    background: rgba(97, 61, 165, 1);
-    color: #FBE01E;
+    background: #800080;
+    color: #FFFF00;
     font-size: 16px;
     padding: 0px 56px 0px 15px;
     font-weight: 600;
@@ -563,11 +563,11 @@ textarea {
 }
 
 .top-patch ul li.bookbtn a:hover {
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
 }
 
 .top-patch ul li.bookbtn a:hover .arw {
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
 }
 
 .top-patch ul li.bookbtn a:after {
@@ -595,7 +595,7 @@ textarea {
     background: #FBE01E;
     line-height: 40px;
     padding: 0 7px 0 5px;
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
 }
 
 .top-patch ul li.bookbtn a .arw i {
@@ -686,7 +686,7 @@ textarea {
 
 .header .menu ul li a.active,
 .header .menu ul li a:hover {
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
     font-weight: bold;
 }
 
@@ -740,7 +740,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-    background-color: #FBE01E;
+    background-color: #FFFF00;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -759,7 +759,7 @@ li.dropdown {
 
 .banner-wrap {
     width: 100%;
-    background: #FBE01E;
+    background: #FFFF00;
 }
 
 .swiper-container {
@@ -771,7 +771,7 @@ li.dropdown {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: rgba(97, 61, 165, 1);
+    background: #800080;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -800,7 +800,7 @@ li.dropdown {
 .banner-wrap .swiper-slide .textbox .txt {
     width: 100%;
     max-width: 600px;
-    border-left: 6px solid #FBE01E;
+    border-left: 6px solid #FFFF00;
     padding-left: 20px;
 }
 
@@ -866,8 +866,8 @@ li.dropdown {
 /*==== Service List ====*/
 
 .service-list {
-    background: rgba(97, 61, 165, 1);
-    color: #FBE01E;
+    background: #800080;
+    color: #FFFF00;
     font-weight: 400px;
 }
 
@@ -882,9 +882,9 @@ li.dropdown {
     vertical-align: middle;
     position: relative;
     height: 44px;
-    color: #FBE01E;
+    color: #FFFF00;
     text-decoration: none;
-    border-left: 2px solid #FBE01E;
+    border-left: 2px solid #FFFF00;
 }
 
 .service-list .tbl .td:first-child {
@@ -898,12 +898,12 @@ li.dropdown {
     top: 0px;
     width: 0px;
     height: 100%;
-    background: #FBE01E;
+    background: #FFFF00;
     transition: all ease-in-out 500ms;
 }
 
 .service-list .tbl .td:hover {
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
 }
 
 .service-list .tbl .td:hover:after {
@@ -923,7 +923,7 @@ li.dropdown {
     left: 0px;
     top: 0px;
     height: 100%;
-    background: #FBE01E;
+    background: #FFFF00;
     height: 100%;
     padding: 9px 0 10px 10px;
     z-index: 2;
@@ -993,7 +993,7 @@ li.dropdown {
     top: 0px;
     right: -10px;
     content: "";
-    background: #FBE01E;
+    background: #FFFF00;
     transform: skewX(-15deg);
     -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
@@ -1068,8 +1068,8 @@ li.dropdown {
 .cnt-section h2.beforeafterline .txt:after {
     height: 8px;
     width: 200px;
-    border-top: 1px solid #FBE01E;
-    border-bottom: 1px solid #FBE01E;
+    border-top: 1px solid #FFFF00;
+    border-bottom: 1px solid #FFFF00;
     background: none;
     position: absolute;
     left: 100%;
@@ -1081,8 +1081,8 @@ li.dropdown {
 .cnt-section h2.beforeafterline .txt:before {
     height: 8px;
     width: 200px;
-    border-top: 1px solid #FBE01E;
-    border-bottom: 1px solid #FBE01E;
+    border-top: 1px solid #FFFF00;
+    border-bottom: 1px solid #FFFF00;
     background: none;
     position: absolute;
     right: 100%;
@@ -1124,7 +1124,7 @@ li.dropdown {
     top: 4px;
     left: 0px;
     font-family: 'FontAwesome';
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
     ;
 }
 
@@ -1180,8 +1180,8 @@ li.dropdown {
 .service-slider .swiper-button-next,
 .service-slider .swiper-button-prev {
     font-size: 16px;
-    background: #FBE01E;
-    color: rgba(97, 61, 165, 1);
+    background: #FFFF00;
+    color: #800080;
     height: 30px;
     width: 30px;
     margin-top: -15px;
@@ -1201,7 +1201,7 @@ li.dropdown {
     width: 100%;
     height: 100%;
     right: 5px;
-    background: #FBE01E;
+    background: #FFFF00;
     content: "";
     transform: skewX(-10deg);
     -moz-transform: skewX(-10deg);
@@ -1215,7 +1215,7 @@ li.dropdown {
     width: 100%;
     height: 100%;
     left: 5px;
-    background: #FBE01E;
+    background: #FFFF00;
     content: "";
     transform: skewX(-10deg);
     -moz-transform: skewX(-10deg);
@@ -1232,7 +1232,7 @@ li.dropdown {
 
 .service-slider .service-box {
     background: #fff;
-    border: 1px solid rgba(97, 61, 165, 1);
+    border: 1px solid #800080;
     overflow: hidden;
     position: relative;
 }
@@ -1275,8 +1275,8 @@ li.dropdown {
 .service-slider .innerbox .txt a {}
 
 .service-slider .innerbox .txt a {
-    background: rgba(97, 61, 165, 1);
-    color: #FBE01E;
+    background: #800080;
+    color: #FFFF00;
     font-weight: bold;
     font-size: 13px;
     padding: 0px 56px 0px 15px;
@@ -1288,7 +1288,7 @@ li.dropdown {
 }
 
 .service-slider .innerbox .txt a:hover {
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
 }
 
 .service-slider .innerbox .txt a .arw {
@@ -1297,10 +1297,10 @@ li.dropdown {
     right: 0px;
     top: 0px;
     height: 100%;
-    background: #FBE01E;
+    background: #FFFF00;
     line-height: 35px;
     padding: 0 7px 0 5px;
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
 }
 
 .service-slider .innerbox .txt a .arw i {
@@ -1316,7 +1316,7 @@ li.dropdown {
     top: 0px;
     left: -7px;
     content: "";
-    background: #FBE01E;
+    background: #FFFF00;
     transform: skewX(-15deg);
     -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
@@ -1329,7 +1329,7 @@ li.dropdown {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #FBE01E;
+    background: #FFFF00;
     top: 0px;
     right: 0px;
     width: 0px;
@@ -1347,7 +1347,7 @@ li.dropdown {
 
 
 /*
-.service-slider .innerbox .txt a:hover{ background:rgba(97, 61, 165, 1);;}
+.service-slider .innerbox .txt a:hover{ background:#800080;;}
 .service-slider .innerbox .txt a:hover .arw{ background:#192b52; }
 .service-slider .innerbox .txt a:hover .arw:before{ background:#192b52; }
 */
@@ -1372,19 +1372,19 @@ li.dropdown {
 }
 
 .about-txt .abt-box a.readmore-link {
-    color: #FBE01E;
+    color: #FFFF00;
 }
 
 .about-txt a {
-    border: 1px solid rgba(97, 61, 165, 1);
+    border: 1px solid #800080;
     padding: 0.5em;
-    background-color: rgba(97, 61, 165, 1);
+    background-color: #800080;
 }
 
 .about-txt .abt-box a.readmore-link:hover {
-    color: rgba(97, 61, 165, 1);
-    background-color: #FBE01E;
-    border: 1px solid #FBE01E;
+    color: #800080;
+    background-color: #FFFF00;
+    border: 1px solid #FFFF00;
 }
 
 
@@ -1397,7 +1397,7 @@ li.dropdown {
 /*==== Testimonial ====*/
 
 .testimonial-cnt {
-    background: rgba(97, 61, 165, 1);
+    background: #800080;
 }
 
 .test-slider .swiper-container {
@@ -1429,7 +1429,7 @@ li.dropdown {
     height: 100%;
     width: 5px;
     content: "";
-    background: #FBE01E;
+    background: #FFFF00;
     transform: skewX(-15deg);
     -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
@@ -1472,20 +1472,20 @@ li.dropdown {
 
 .test-slider .swiper-slide .name span {
     font-size: 16px;
-    color: #FBE01E;
+    color: #FFFF00;
     display: block;
 }
 
 .test-slider .swiper-button-next,
 .test-slider .swiper-button-prev {
-    background: #FBE01E;
+    background: #FFFF00;
     top: auto;
     bottom: 0px;
     height: 40px;
     width: 40px;
     line-height: 38px;
     font-size: 30px;
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
     left: 50% !important;
     right: auto;
     transform: skewX(-15deg);
@@ -1517,7 +1517,7 @@ li {
 }
 
 .suga-container {
-    background: rgba(97, 61, 165, 1);
+    background: #800080;
     padding: 0.2em;
     max-width: 100%;
     margin: 2em auto;
@@ -1555,15 +1555,15 @@ li {
 /*==== Contact info ====*/
 
 .orange-patch {
-    background: #FBE01E;
-    color: rgba(97, 61, 165, 1);
+    background: #FFFF00;
+    color: #800080;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.2;
 }
 
 .orange-patch a {
-    color: rgba(97, 61, 165, 1);
+    color: #800080;
 }
 
 .orange-patch ul {
@@ -1574,7 +1574,7 @@ li {
 
 .orange-patch li {
     list-style: none;
-    border-left: 1px solid rgba(97, 61, 165, 1);
+    border-left: 1px solid #800080;
     display: table-cell;
     vertical-align: middle;
     padding: 20px 0;
@@ -1590,8 +1590,8 @@ li {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: rgba(97, 61, 165, 1);
-    color: #FBE01E;
+    background: #800080;
+    color: #FFFF00;
     font-size: 25px;
     position: relative;
     margin-right: 30px;
@@ -1607,7 +1607,7 @@ li {
     width: 50%;
     height: 100%;
     position: absolute;
-    background: rgba(97, 61, 165, 1);
+    background: #800080;
     transform: skewX(-15deg);
     -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
@@ -1653,8 +1653,8 @@ li {
     position: fixed;
     right: 20px;
     bottom: -100px;
-    background: rgba(97, 61, 165, 1);
-    color: #FBE01E;
+    background: #800080;
+    color: #FFFF00;
     padding: 7px 10px;
     transition: all ease-in-out 400ms;
     z-index: 99
@@ -1724,7 +1724,7 @@ li {
 }
 
 .about-cnt .txt {
-    font-size: 14px;
+    font-size: 18px;
     color: #6e6e6e;
     line-height: 1.4;
     padding-right: 30px;
@@ -1871,7 +1871,7 @@ li {
 }
 
 .form-cnt .form ul li .btn .btntxt {
-    background: rgba(97, 61, 165, 1);
+    background: #800080;
     color: #FFFF00;
     border: none;
     font-size: 16px;
@@ -1885,7 +1885,7 @@ li {
 }
 
 .form-cnt .form ul li .btn input {
-    background: rgba(97, 61, 165, 1);
+    background: #800080;
     color: #FFFF00;
     border: none;
     font-size: 16px;
@@ -2082,6 +2082,10 @@ li {
     overflow: auto;
 }
 
+.steel-text {
+    font-size: 20px !important;
+    color: #555;
+}
 
 /*==== /Our Products Page*/
 
@@ -2333,7 +2337,7 @@ li {
     .header .menu ul li a {
         font-size: 16px;
         padding: 7px 15px;
-        background: rgba(97, 61, 165, 1);
+        background: #800080;
         color: #FFFF00 !important;
         font-style: normal;
         font-weight: normal;
@@ -2344,7 +2348,7 @@ li {
     }
     .close-btn {
         display: block;
-        background: rgba(97, 61, 165, 1);
+        background: #800080;
         position: relative;
         padding: 10px;
     }
@@ -2361,7 +2365,7 @@ li {
         position: absolute;
         left: 50%;
         bottom: -15px;
-        border: 5px solid rgba(97, 61, 165, 1);
+        border: 5px solid #800080;
         background: #fff;
         margin-left: -17px;
         text-align: center;
@@ -2374,7 +2378,7 @@ li {
         display: block;
         float: right;
         font-size: 25px;
-        color: rgba(97, 61, 165, 1);
+        color: #800080;
         margin: 3px 0 0 0;
         position: relative;
         width: 30px;
